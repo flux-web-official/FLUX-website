@@ -21,7 +21,7 @@ const WebDevelopment = () => {
             <Image id="web-img" src={webPageImg} alt="this is image" fluid/>
            </Fade>
            <Slide delay={1100} right>
-           <h1 id="web-page-img-h1">Show Your Work</h1>
+           <h1 id="web-page-img-h1">Shew Your Work</h1>
            </Slide>
             </div>
             
