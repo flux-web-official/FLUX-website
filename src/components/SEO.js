@@ -10,10 +10,9 @@ import SEOPageImg2 from "./images/SEOPageImg2.png";
 import ContactButton from "./ContactButton";
 import Footer from "./Footer";
 
-
 const SEO = () => {
-    return (
-        <div id="webd-body">
+  return (
+    <div id="webd-body">
        ̰
       <Fade top>
         <Header />
@@ -38,24 +37,26 @@ const SEO = () => {
           </Row>
         </Container>
         <Fade left cascade>
-        <div id="para-div">
-          <p className="para">
-            Online portfolios are all about appearances. That's why FLUX creates
-            designer portfolios that make an impact. Plus easy slide shows, lots
-            of storage, and a media library right at your fingertips.
-          </p>
-          <p className="para">
-            If you're a photographer, artist, designer, model, or creative,
-            putting your work online is the best way to reach a larger audience.
-            And we are here to help you with that.
-          </p>
-        </div>
+          <div id="para-div">
+            <p className="para">
+              There’s some SEO in everything you do online. But that doesn’t
+              mean everyone needs the same SEO services. Build your search
+              engine optimization foundation with the trusted experts. We offer
+              the right plans and strategies match your exact needs.
+            </p>
+            <p className="para">
+              You can get an edge on the competition with a strong, integrated
+              strategy that combines content marketing, research, technical SEO,
+              social media, paid strategies, and other elements of online
+              marketing.
+            </p>
+          </div>
         </Fade>
       </div>
       <ContactButton />
       <Footer />
     </div>
-    )
-}
+  );
+};
 
-export default SEO
+export default SEO;

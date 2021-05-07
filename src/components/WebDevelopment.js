@@ -13,7 +13,7 @@ import Footer from "./Footer";
 const WebDevelopment = () => {
   return (
     <div id="webd-body">
-       ̰
+       
       <Fade top>
         <Header />
       </Fade>
