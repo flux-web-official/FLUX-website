@@ -263,7 +263,7 @@
 }
 .c-body{
   background: #1C1C1C;
-  height: 72rem;
+  height: 77rem;
 }
 .contact-form{
   position: relative;
@@ -272,7 +272,7 @@
   margin-bottom: 5%;
   width: 70%;
   z-index: 1;
-  bottom: 7rem;
+  bottom: 4.5rem;
 }
 .contact-form .form-control{
   border-radius:1rem;
@@ -325,7 +325,7 @@
   transform: rotate(-10deg);
   z-index: 2;
   position: relative;
-  top: 6rem;
+  top: 9rem;
   height: 10rem;
   width: 10rem;
 }

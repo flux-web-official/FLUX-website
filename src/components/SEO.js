@@ -25,7 +25,7 @@ const SEO = () => {
           <Image id="SEO-img" src={SEOPageImg} alt="this is image" fluid />
         </Fade>
         <Slide delay={1100} right>
-          <h1 id="web-page-img-h1">Giving Voice To Your Brand</h1>
+          <h1 id="web-page-img-h1">Rising Is What We Do</h1>
         </Slide>
       </div>
       <div id="webd-page-section2">

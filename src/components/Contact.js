@@ -6,6 +6,7 @@ import "../App.css";
 import contact1 from "./images/contact1.png";
 import contact2 from "./images/contact2.png";
 import Header from "./Header";
+import Footer from './Footer'
 const Contact = () => {
   const submitForm = (e) => {
     e.preventDefault();
@@ -86,6 +87,7 @@ const Contact = () => {
         </Form>
       </div>
       </Fade>
+      <Footer/>
     </div>
   );
 };
