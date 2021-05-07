@@ -7,6 +7,7 @@ import { Image, Container, Row, Col } from "react-bootstrap";
 import Slide from "react-reveal/Slide";
 import webPageImg from "./images/webPageImg.jpeg";
 import webdPageImg2 from "./images/webdPageImg2.jpg";
+import ContactButton from "./ContactButton";
 import Footer from "./Footer";
 
 const WebDevelopment = () => {
@@ -51,6 +52,7 @@ const WebDevelopment = () => {
         </div>
         </Fade>
       </div>
+      <ContactButton />
       <Footer />
     </div>
   );

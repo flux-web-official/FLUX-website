@@ -6,7 +6,8 @@ import Fade from "react-reveal/Fade";
 import { Image, Container, Row, Col } from "react-bootstrap";
 import Slide from "react-reveal/Slide";
 import SEOPageImg from "./images/SEOPageImg.jpeg";
-import webdPageImg2 from "./images/webdPageImg2.jpg";
+import SEOPageImg2 from "./images/SEOPageImg2.png";
+import ContactButton from "./ContactButton";
 import Footer from "./Footer";
 
 
@@ -32,25 +33,26 @@ const SEO = () => {
         <Container>
           <Row>
             <Col xs={6} md={4}>
-              <Image id="webdPageImg2" src={webdPageImg2} />
+              <Image id="SEOPageImg2" src={SEOPageImg2} />
             </Col>
           </Row>
         </Container>
+        <Fade left cascade>
         <div id="para-div">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
-            incidunt iure rerum laboriosam, ipsam adipisci officiis, culpa,
-            dolore atque aut ullam odit est laborum dignissimos accusamus?
-            Veritatis, accusamus. Ullam, maxime?
+          <p className="para">
+            Online portfolios are all about appearances. That's why FLUX creates
+            designer portfolios that make an impact. Plus easy slide shows, lots
+            of storage, and a media library right at your fingertips.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia
-            doloremque cum rerum quia dolorem quasi, debitis nemo ipsam pariatur
-            incidunt exercitationem voluptatum soluta optio officiis obcaecati
-            unde iure maxime!
+          <p className="para">
+            If you're a photographer, artist, designer, model, or creative,
+            putting your work online is the best way to reach a larger audience.
+            And we are here to help you with that.
           </p>
         </div>
+        </Fade>
       </div>
+      <ContactButton />
       <Footer />
     </div>
     )

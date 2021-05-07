@@ -7,6 +7,7 @@ import { Image, Container, Row, Col } from "react-bootstrap";
 import Slide from "react-reveal/Slide";
 import pfPageImg from "./images/pfPageImg.jpg";
 import pfPageImg2 from "./images/pfPageImg2.png";
+import ContactButton from "./ContactButton";
 import Footer from "./Footer";
 
 const Portfolio = () => {
@@ -50,6 +51,7 @@ const Portfolio = () => {
         </div>
         </Fade>
       </div>
+      <ContactButton />
       <Footer />
     </div>
   );

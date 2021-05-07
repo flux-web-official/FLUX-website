@@ -6,12 +6,13 @@ import Home from './components/Home'
 import WebDevelopment from './components/WebDevelopment'
 import Portfolio from './components/Portfolio'
 import SEO from './components/SEO'
-import ScrollToTop from './components/ScrollToTop'
+// import ScrollToTop from './components/ScrollToTop'
+
 const App = () => {
   return (
     <div>
       <Router>
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         <Switch>
           <Route exact path='/'><Home/></Route>
           <Route path='/WebDevelopment'><WebDevelopment/></Route>
