@@ -137,7 +137,7 @@
 }
 #webd-body{
   background-color: #1B1B1B;
-  height: 50rem;
+  height: 106rem;
   z-index: 0;
 }
 #webd-h1{
@@ -160,6 +160,9 @@
   filter:brightness(60%);
   position: relative;
   z-index: 1;
+  -webkit-box-shadow: 3px 3px 5px 6px red;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px red;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px red;
 }
 #web-page-img-div{
   /* display: flex; */
@@ -174,4 +177,70 @@
   margin-left: 39rem;
   position: relative;
   z-index: 2;
+}
+#webdPageImg2{
+  height: 30rem;
+  width: 40rem;
+  position: relative;
+  top: 19rem;
+  left: 34rem;
+  opacity: 0.75;
+  border-radius: 2rem;
+}
+#para-div{
+  color:white;
+  margin-left: 5rem;
+  margin-right: 30rem;
+  position: relative;
+  width: 38rem;
+  font-size: 1.5rem;
+  bottom: 8rem;
+}
+.main-footer{
+  border-top: solid darkgrey 5px;
+  padding-top: 2.5rem;
+}
+#webd-page-section2{
+  margin: 6rem 0rem;
+}
+#pf-img{
+  height: 38rem;
+  width: 58rem;
+  position: relative;
+  -webkit-filter: brightness(60%);
+  filter:brightness(60%);
+  margin-top: 3rem;
+  margin-left: -3rem;
+  z-index: 1;
+  -webkit-box-shadow: 3px 3px 5px 6px white;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px white;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px white;
+}
+#pf-body{
+  background-color: #1B1B1B;
+  height: 116rem;
+  z-index: 0;
+}
+.para{
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 3rem 0rem;
+}
+#pf-page-img-h1{
+  color: white;
+  margin-top: -26rem;
+  font-size: 5.5rem;
+  margin-left: 46rem;
+  position: relative;
+  z-index: 2;
+}
+#SEO-img{
+  height: 30rem;
+  width: 50rem;
+  -webkit-filter: brightness(50%);
+  filter:brightness(50%);
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 3px 3px 5px 6px white;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px white;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px darkgrey;
 }
